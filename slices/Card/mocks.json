@@ -1,0 +1,241 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Labore consectetur laboris laboris fugiat ipsum sunt excepteur."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"image_card",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
+								"width": 3648,
+								"height": 4560
+							},
+							"url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?rect=0%2C456%2C3648%2C3648&w=500&h=500",
+							"width": 500,
+							"height": 500,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 456
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"name_card",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Техническая подготовка",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description_card",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Наши тренеры сосредоточены на развитии вашей техники игры. Мы поможем вам усовершенствовать прием и передачу мяча, улучшить ваш контроль и точность ударов, а также научим эффективно выполнять финты и дриблинг."
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"image_card",
+						{
+							"url": "https://images.unsplash.com/photo-1588514206464-214a4d63ed18?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxMXx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzA4NzgxNjA0fDA&ixlib=rb-4.0.3&q=85&rect=0%2C584%2C2336%2C2336&w=500&h=500",
+							"alt": "sliced lemon on white background",
+							"origin": {
+								"id": "TREaif_QI6Y",
+								"url": "https://images.unsplash.com/photo-1588514206464-214a4d63ed18?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxMXx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzA4NzgxNjA0fDA&ixlib=rb-4.0.3&q=85",
+								"width": 2336,
+								"height": 3504
+							},
+							"width": 500,
+							"height": 500,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 584
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"name_card",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Тактическая подготовка",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description_card",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Понимание тактики игры является ключевым аспектом успеха на поле. Наши тренеры научат вас читать игру, принимать правильные решения в различных ситуациях и развивать вашу тактическую интуицию. Мы поможем вам стать умнее и стратегически мыслящим игроком."
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"image_card",
+						{
+							"url": "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MDg3ODE2MDR8MA&ixlib=rb-4.0.3&q=85&rect=0%2C504%2C3024%2C3024&w=500&h=500",
+							"alt": "sliced grapefruits",
+							"origin": {
+								"id": "ezSFnAFi9hY",
+								"url": "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MDg3ODE2MDR8MA&ixlib=rb-4.0.3&q=85",
+								"width": 3024,
+								"height": 4032
+							},
+							"width": 500,
+							"height": 500,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 504
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"name_card",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Физическая подготовка",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description_card",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Футбол требует высокой физической формы, и мы поможем вам достичь ее. Наша команда специалистов разработает индивидуальную программу тренировок, которая включает в себя упражнения для развития выносливости, скорости, силы и гибкости. Мы поможем вам стать физически сильным и готовым к любым вызовам на поле."
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"image_card",
+						{
+							"url": "https://images.unsplash.com/photo-1616679312958-a86d9539afae?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw0fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MDg3ODE2MDR8MA&ixlib=rb-4.0.3&q=85&rect=0%2C504%2C3024%2C3024&w=500&h=500",
+							"alt": "orange fruit on white ceramic plate",
+							"origin": {
+								"id": "Jr7t5QviCDM",
+								"url": "https://images.unsplash.com/photo-1616679312958-a86d9539afae?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw0fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MDg3ODE2MDR8MA&ixlib=rb-4.0.3&q=85",
+								"width": 3024,
+								"height": 4032
+							},
+							"width": 500,
+							"height": 500,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 504
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"name_card",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Психологическая подготовка",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description_card",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Футбол – это не только физическая игра, но и игра разума. Наша команда психологов поможет вам развить ментальную силу и концентрацию, управлять эмоциями и стрессом, а также улучшить вашу самоуверенность и мотивацию. Мы поможем вам развить психологическую устойчивость, необходимую для достижения высоких результатов."
+						}
+					]
+				]
+			}
+		]
+	}
+]

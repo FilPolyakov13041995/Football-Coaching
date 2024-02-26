@@ -1,0 +1,189 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Expression"
+						}
+					}
+				]
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io"
+				}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Связаться"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"images",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+								"width": 3212,
+								"height": 3880
+							},
+							"url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?rect=0%2C334%2C3212%2C3212&w=400&h=400",
+							"width": 400,
+							"height": 400,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 334
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "skin",
+							"type": "Text"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"images",
+						{
+							"url": "https://images.unsplash.com/photo-1432457990754-c8b5f21448de?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzA4ODAzNTEwfDA&ixlib=rb-4.0.3&q=85&rect=0%2C516%2C3096%2C3096&w=400&h=400",
+							"alt": "bunch of yellow lemon",
+							"origin": {
+								"id": "Z-Y6I45f9kQ",
+								"url": "https://images.unsplash.com/photo-1432457990754-c8b5f21448de?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzA4ODAzNTEwfDA&ixlib=rb-4.0.3&q=85",
+								"width": 3096,
+								"height": 4128
+							},
+							"width": 400,
+							"height": 400,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 516
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "palace",
+							"type": "Text"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"images",
+						{
+							"url": "https://images.unsplash.com/photo-1592187270271-9a4b84faa228?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MDg4MDM1MTB8MA&ixlib=rb-4.0.3&q=85&rect=0%2C1000%2C4000%2C4000&w=400&h=400",
+							"alt": "sliced orange fruit on blue surface",
+							"origin": {
+								"id": "8ZGgg6rhzxs",
+								"url": "https://images.unsplash.com/photo-1592187270271-9a4b84faa228?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MDg4MDM1MTB8MA&ixlib=rb-4.0.3&q=85",
+								"width": 4000,
+								"height": 6000
+							},
+							"width": 400,
+							"height": 400,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 1000
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "ear",
+							"type": "Text"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"images",
+						{
+							"url": "https://images.unsplash.com/photo-1582287104445-6754664dbdb2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxMnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzA4ODAzNTEwfDA&ixlib=rb-4.0.3&q=85&rect=910%2C0%2C3640%2C3640&w=400&h=400",
+							"alt": "yellow lemon fruit on white surface",
+							"origin": {
+								"id": "7WAGthfGJ9w",
+								"url": "https://images.unsplash.com/photo-1582287104445-6754664dbdb2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxMnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzA4ODAzNTEwfDA&ixlib=rb-4.0.3&q=85",
+								"width": 5460,
+								"height": 3640
+							},
+							"width": 400,
+							"height": 400,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 910,
+									"y": 0
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "remember",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

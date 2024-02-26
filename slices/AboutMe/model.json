@@ -1,0 +1,106 @@
+{
+  "id": "about_me",
+  "type": "SharedSlice",
+  "name": "AboutMe",
+  "description": "AboutMe",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 600,
+              "height": 600
+            },
+            "thumbnails": []
+          }
+        },
+        "name": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Name",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2,strong"
+          }
+        },
+        "education_or_experience": {
+          "type": "StructuredText",
+          "config": {
+            "label": "education_or_experience",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading3,strong"
+          }
+        },
+        "items": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Items",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading5,strong"
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "reverse",
+      "name": "reverse",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 600,
+              "height": 600
+            },
+            "thumbnails": []
+          }
+        },
+        "name": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Name",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2,strong"
+          }
+        },
+        "education_or_experience": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Education or Experience ",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading3,strong"
+          }
+        },
+        "items": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Items",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading5,strong"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

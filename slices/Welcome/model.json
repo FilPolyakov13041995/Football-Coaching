@@ -1,0 +1,55 @@
+{
+  "id": "welcome",
+  "type": "SharedSlice",
+  "name": "Welcome",
+  "description": "Welcome",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "welcome": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Welcome",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "bold_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Bold Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading3"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 720
+            },
+            "thumbnails": []
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

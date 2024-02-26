@@ -1,0 +1,98 @@
+{
+  "id": "contacts",
+  "type": "SharedSlice",
+  "name": "Contacts",
+  "description": "Contacts",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading3,strong"
+          }
+        },
+        "address": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Address",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "strong,heading4"
+          }
+        },
+        "address_item": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Address Item",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong"
+          }
+        },
+        "phone": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Phone",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading4,strong"
+          }
+        },
+        "phone_item": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Phone Item",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong"
+          }
+        },
+        "email": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Email",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading4,strong"
+          }
+        },
+        "email_item": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Email Item",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong"
+          }
+        },
+        "link_school": {
+          "type": "Link",
+          "config": {
+            "label": "Link School",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "link_text": {
+          "type": "Text",
+          "config": {
+            "label": "Link Text",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

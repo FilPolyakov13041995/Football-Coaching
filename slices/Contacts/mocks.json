@@ -1,0 +1,105 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Teach"
+						}
+					}
+				]
+			},
+			"address": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading4",
+						"content": {
+							"text": "Design"
+						}
+					}
+				]
+			},
+			"address_item": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Irure officia sit laboris irure",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"phone": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading4",
+						"content": {
+							"text": "Handsome"
+						}
+					}
+				]
+			},
+			"phone_item": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Incididunt amet esse ",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"email": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading4",
+						"content": {
+							"text": "Activity"
+						}
+					}
+				]
+			},
+			"email_item": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Velit fugiat officia ",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"link_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Funny Kickers"
+			},
+			"link_school": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://www.funnykickers.com/",
+					"target": "_blank"
+				}
+			}
+		},
+		"items": []
+	}
+]
