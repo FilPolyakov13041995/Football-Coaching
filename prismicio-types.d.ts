@@ -272,6 +272,17 @@ interface SettingsDocumentData {
   og_image: prismic.ImageField<never>;
 
   /**
+   * BG Text field in *Settings*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: settings.bg_text
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  bg_text: prismic.RichTextField;
+
+  /**
    * Logo field in *Settings*
    *
    * - **Field Type**: Group

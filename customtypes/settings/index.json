@@ -30,6 +30,15 @@
           "thumbnails": []
         }
       },
+      "bg_text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "BG Text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "heading1,strong"
+        }
+      },
       "logo": {
         "type": "Group",
         "config": {
