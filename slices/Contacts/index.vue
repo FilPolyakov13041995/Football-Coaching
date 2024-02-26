@@ -55,7 +55,7 @@ defineProps(
         <PrismicText :field="slice.primary.email_item" class="text-lg" />
       </div>
       <div
-        class="text-center sm:text-left text-2xl font-semibold hover:underline"
+        class="text-center sm:text-left text-2xl font-semibold underline"
       >
         <PrismicLink :field="slice.primary.link_school">{{
           slice.primary.link_text

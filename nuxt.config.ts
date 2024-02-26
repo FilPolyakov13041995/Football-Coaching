@@ -24,11 +24,13 @@ export default defineNuxtConfig({
 
   modules: ["@nuxtjs/prismic", "@nuxtjs/tailwindcss"],
   css: ["~/assets/css/tailwind.css"],
-  
+
   routeRules: {
     "/": { prerender: true },
-    '/contacts' : { prerender: true },
-    "/services": { isr: 3600 },
+    "/about": { isr: 1800 },
+    "/school": { isr: 1800 },
+    "/services": { isr: 1800 },
+    "/contacts" : { swr: true},
   },
 
   prismic: {
