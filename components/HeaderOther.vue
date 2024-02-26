@@ -12,13 +12,12 @@
         <nav>
           <ul class="flex gap-4 text-white">
             <li
-              class="text-sm md:text-xl"
+              class="text-sm sm:text-base"
               v-for="item in settings?.data.navigation"
               :key="item.label ?? ''"
             >
               <PrismicLink :field="item.link" class="font-medium" :class="{
-                'border-b-2 border-white py-2': $route.path === item.link.url,
-                'transition-all duration-150': true,
+                'text-pink-500': route.path === item.link.url,
               }">
                 {{ item.label.toUpperCase() }}
               </PrismicLink>

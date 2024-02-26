@@ -31,9 +31,9 @@ defineProps(
       <div class="pb-7">
         <PrismicRichText
           :field="slice.primary.welcome"
-          class="text-2xl font-semibold md:text-4xl text-center p-4 leading-normal uppercase"
+          class="text-xl font-semibold md:text-4xl text-center p-4 leading-normal uppercase"
         />
-        <div class="border-b-2 border-black w-1/5 mx-auto"></div>
+        <div class="border-b border-black w-2/5 sm:w-1/5 mx-auto"></div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 place-items-center">
         <PrismicImage
@@ -43,7 +43,7 @@ defineProps(
         <div>
           <PrismicRichText
             :field="slice.primary.bold_text"
-            class="text-xl pb-4 font-bold uppercase"
+            class="text-xl text-center sm:text-left pb-4 font-bold uppercase"
           />
           <p class="md:text-base lg:text-lg tracking-wide line">
             {{ slice.primary.description }}
@@ -56,6 +56,6 @@ defineProps(
 
 <style scoped>
 .line {
-  line-height: 35px;
+  line-height: 30px;
 }
 </style>

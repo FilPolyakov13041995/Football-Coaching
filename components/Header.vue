@@ -15,13 +15,12 @@
         <nav>
           <ul class="flex gap-4">
             <li
-              class="text-sm md:text-xl"
+              class="text-sm sm:text-base"
               v-for="item in settings?.data.navigation"
               :key="item.label ?? ''"
             >
               <PrismicLink :field="item.link" class="font-medium" :class="{
-                'border-b-2 border-white py-2': $route.path === item.link.url,
-                'transition-all duration-150': true,
+                'text-pink-500': route.path === item.link.url,
               }">
                 <p class="hover:text-neutral-400">{{ item.label.toUpperCase() }}</p>
               </PrismicLink>
@@ -35,7 +34,7 @@
         ШКОЛА СОВРЕМЕННОГО <br />ФУТБОЛА
       </h1>
       <div
-        class="text-gray-300 flex flex-col sm:flex-row gap-5 sm:gap-10 items-center justify-center text-xs"
+        class="text-gray-300 flex flex-col sm:flex-row gap-2 sm:gap-10 items-center justify-center text-xs"
       >
         <p class="flex items-center justify-center gap-2">
           <IconsLoco class="w-4 h-auto" />Брест, ул. Красногвардейская, 59

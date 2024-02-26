@@ -23,19 +23,20 @@ defineProps(
 
 <template>
   <Bounded
-    class="!py-4 md:!py-6 lg:!py-8"
+    class="!py-4 md:!py-6 lg:!py-8 overflow-x-hidden"
     :data-slice-type="slice.slice_type"
     :data-slice-variation="slice.variation"
   >
     <div>
-      <div data-aos="flip-up">
+      <div data-aos="fade-right">
         <PrismicRichText
           :field="slice.primary.rich_text"
-          class="text-center text-xl md:text-5xl font-semibold pb-2"
+          class="text-center text-3xl md:text-5xl font-semibold pb-2"
         />
+        <div class="border-b border-black w-1/4 mx-auto mb-4"></div>
         <PrismicText
           :field="slice.primary.small_text"
-          class="w-2/3 pb-5 mx-auto text-lg text-center"
+          class="w-full md:w-2/3 pb-5 mx-auto text-lg text-center"
         />
       </div>
       
