@@ -26,7 +26,7 @@
                   'text-pink-500': route.path === item.link.url,
                 }"
               >
-                <p class="hover:text-neutral-400">
+                <p class="hover:text-gray-400">
                   {{ item.label.toUpperCase() }}
                 </p>
               </PrismicLink>

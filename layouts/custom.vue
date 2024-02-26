@@ -15,4 +15,5 @@ useSeoMeta({
   description: settings.value?.data.meta_description,
   ogImage: prismic.asImageSrc(settings.value?.data.og_image),
 });
+
 </script>
